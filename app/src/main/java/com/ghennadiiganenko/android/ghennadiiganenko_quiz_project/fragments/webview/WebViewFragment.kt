@@ -89,15 +89,19 @@ class WebViewFragment : Fragment(R.layout.fragment_webview) {
         val webSettings = webView.settings
         val cookieManager: CookieManager = CookieManager.getInstance()
 
+        cookieManager.setAcceptCookie(true)
+
         webSettings.javaScriptEnabled = true
         webSettings.domStorageEnabled = true
+        webSettings.javaScriptCanOpenWindowsAutomatically = true
         webSettings.loadWithOverviewMode = true
         webSettings.useWideViewPort = true
         webSettings.builtInZoomControls = true
         webSettings.displayZoomControls = false
-        webSettings.setSupportZoom(true)
         webSettings.defaultTextEncodingName = "utf-8"
-
-        cookieManager.setAcceptThirdPartyCookies(webView, true)
+        webSettings.allowContentAccess = true
+        webSettings.allowFileAccess = true
+        webSettings.setSupportZoom(false)
+        webSettings.databaseEnabled = true
     }
 }
