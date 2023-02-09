@@ -65,7 +65,9 @@ class WebViewFragment : Fragment(R.layout.fragment_webview) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.webView.loadUrl(args.url)
+        if (savedInstanceState == null) {
+            binding.webView.loadUrl(args.url)
+        }
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
