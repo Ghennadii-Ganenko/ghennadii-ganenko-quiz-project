@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.Window
 import android.widget.RadioButton
-import android.widget.Toast
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
@@ -61,10 +60,7 @@ class GameFragment : Fragment() {
                     (binding.answerButtons[buttonIndex] as RadioButton).text.toString(),
                     sportQuizQuestions.answers[randomQuestionsNumbers[questionNumber]]
                 )) {
-                    correctToast()
                     numberOfCorrectAnswers++
-                } else {
-                    wrongToast()
                 }
 
                 // Check if game should be ended
@@ -77,14 +73,6 @@ class GameFragment : Fragment() {
                 }
             }
         }
-    }
-
-    private fun correctToast() {
-        Toast.makeText(requireContext(), "Right!", Toast.LENGTH_SHORT).show()
-    }
-
-    private fun wrongToast() {
-        Toast.makeText(requireContext(), "Oops, wrong :(", Toast.LENGTH_LONG).show()
     }
 
     private fun isAnswerCorrect(choice: String, answer: String) : Boolean = choice==answer
