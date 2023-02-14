@@ -1,8 +1,8 @@
-package com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.activity
+package sports.quiz.betcity.hast.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.R
+import sports.quiz.betcity.hast.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

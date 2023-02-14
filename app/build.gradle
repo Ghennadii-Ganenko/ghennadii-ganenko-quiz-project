@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace 'com.ghennadiiganenko.android.ghennadiiganenko_quiz_project'
+    namespace 'sports.quiz.betcity.hast'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.ghennadiiganenko.android.ghennadiiganenko_quiz_project"
+        applicationId "sports.quiz.betcity.hast"
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -91,4 +91,7 @@ dependencies {
     def core_version = "1.9.0"
 
     implementation("androidx.core:core-ktx:$core_version")
+
+    //OneSignal
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
 }

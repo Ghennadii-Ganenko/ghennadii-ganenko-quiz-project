@@ -1,4 +1,4 @@
-package com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.game
+package sports.quiz.betcity.hast.fragments.game
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,8 +10,8 @@ import androidx.core.view.get
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
-import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.data.SportQuizQuestions
-import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.databinding.FragmentGameBinding
+import sports.quiz.betcity.hast.data.SportQuizQuestions
+import sports.quiz.betcity.hast.databinding.FragmentGameBinding
 import kotlin.properties.Delegates
 
 const val NUMBER_OF_QUESTIONS = 10

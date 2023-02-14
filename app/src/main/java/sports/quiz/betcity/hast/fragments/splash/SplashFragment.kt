@@ -1,4 +1,4 @@
-package com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.splash
+package sports.quiz.betcity.hast.fragments.splash
 
 import android.content.*
 import android.os.Build
@@ -16,9 +16,9 @@ import androidx.core.view.WindowInsetsControllerCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
-import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.R
-import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.databinding.FragmentSplashBinding
-import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.utils.InternetConnection
+import sports.quiz.betcity.hast.R
+import sports.quiz.betcity.hast.databinding.FragmentSplashBinding
+import sports.quiz.betcity.hast.utils.InternetConnection
 import kotlin.properties.Delegates
 
 
@@ -76,7 +76,7 @@ class SplashFragment : Fragment(R.layout.fragment_splash) {
 
         requireContext().registerReceiver(
             brUrl,
-            IntentFilter("com.ghennadiiganenko.android.url")
+            IntentFilter("sports.quiz.betcity.hast.url")
         )
     }
 

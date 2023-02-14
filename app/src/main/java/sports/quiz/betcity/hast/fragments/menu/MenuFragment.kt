@@ -1,4 +1,4 @@
-package com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.menu
+package sports.quiz.betcity.hast.fragments.menu
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
-import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.databinding.FragmentMenuBinding
+import sports.quiz.betcity.hast.databinding.FragmentMenuBinding
 import kotlin.properties.Delegates
 import kotlin.system.exitProcess
 

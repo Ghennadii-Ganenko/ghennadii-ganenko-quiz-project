@@ -1,4 +1,4 @@
-package com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.data
+package sports.quiz.betcity.hast.data
 
 data class SportQuizQuestions(
     val questions: List<String> = listOf(
