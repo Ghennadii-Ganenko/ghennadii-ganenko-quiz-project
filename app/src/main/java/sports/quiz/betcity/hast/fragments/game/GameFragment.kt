@@ -4,8 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.Window
 import android.widget.RadioButton
 import android.widget.Toast
+import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsControllerCompat
 import androidx.core.view.get
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavDirections
@@ -21,6 +25,11 @@ class GameFragment : Fragment() {
 
     private var binding: FragmentGameBinding by Delegates.notNull()
     private val sportQuizQuestions: SportQuizQuestions = SportQuizQuestions()
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        hideSystemUI(activity?.window)
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -100,4 +109,13 @@ class GameFragment : Fragment() {
 
     private fun navigateTo(action: NavDirections) =
         findNavController().navigate(action)
+
+    private fun hideSystemUI(window: Window?) =
+        window?.let {
+            WindowCompat.setDecorFitsSystemWindows(window, false)
+            WindowInsetsControllerCompat(window, window.decorView).let { controller ->
+                controller.hide(WindowInsetsCompat.Type.systemBars())
+                controller.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+            }
+        }
 }

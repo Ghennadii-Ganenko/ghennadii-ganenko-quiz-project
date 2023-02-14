@@ -28,7 +28,6 @@ class WebViewFragment : Fragment(R.layout.fragment_webview) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         hideSystemUI(activity?.window)
 
         val callback: OnBackPressedCallback =
