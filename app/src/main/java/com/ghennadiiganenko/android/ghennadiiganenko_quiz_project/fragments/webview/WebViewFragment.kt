@@ -1,4 +1,4 @@
-package sports.quiz.betcity.hast.fragments.webview
+package com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.webview
 
 import android.os.Build
 import android.os.Bundle
@@ -16,8 +16,8 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
-import sports.quiz.betcity.hast.R
-import sports.quiz.betcity.hast.databinding.FragmentWebviewBinding
+import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.R
+import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.databinding.FragmentWebviewBinding
 import kotlin.properties.Delegates
 
 

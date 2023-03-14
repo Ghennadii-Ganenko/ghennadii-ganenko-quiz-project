@@ -1,4 +1,4 @@
-package sports.quiz.betcity.hast.fragments.internetexception
+package com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.internetexception
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.fragment.app.Fragment
-import sports.quiz.betcity.hast.databinding.FragmentInternetExceptionBinding
+import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.databinding.FragmentInternetExceptionBinding
 import kotlin.properties.Delegates
 
 class InternetExceptionFragment : Fragment() {

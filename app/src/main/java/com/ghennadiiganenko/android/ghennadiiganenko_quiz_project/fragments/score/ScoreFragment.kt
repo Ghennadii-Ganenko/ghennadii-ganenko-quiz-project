@@ -1,4 +1,4 @@
-package sports.quiz.betcity.hast.fragments.score
+package com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.score
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,10 +12,10 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.R
+import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.databinding.FragmentScoreBinding
+import com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.game.NUMBER_OF_QUESTIONS
 import com.squareup.picasso.Picasso
-import sports.quiz.betcity.hast.R
-import sports.quiz.betcity.hast.databinding.FragmentScoreBinding
-import sports.quiz.betcity.hast.fragments.game.NUMBER_OF_QUESTIONS
 import kotlin.properties.Delegates
 
 class ScoreFragment : Fragment() {

@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "806307959240",
-    "project_id": "gegan94-ea736",
-    "storage_bucket": "gegan94-ea736.appspot.com"
+    "project_number": "432432548400",
+    "project_id": "ghennadiiganenko-quiz-project",
+    "storage_bucket": "ghennadiiganenko-quiz-project.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:806307959240:android:52ce507cec14d9c77fb0fd",
+        "mobilesdk_app_id": "1:432432548400:android:da48f6b031865d4cb8bbf5",
         "android_client_info": {
-          "package_name": "sports.quiz.betcity.hast"
+          "package_name": "com.ghennadiiganenko.android.ghennadiiganenko_quiz_project"
         }
       },
       "oauth_client": [
         {
-          "client_id": "806307959240-5qt23aevjd4b4spmfubm0oql50v4v3l8.apps.googleusercontent.com",
+          "client_id": "432432548400-v0lieqck0g8bo9ckeugqtjf51ogs2etc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA7xBfMsC2n_dCUdce01HA1EfsERMRGC-0"
+          "current_key": "AIzaSyAbV1aCd7gkX31mDABjwaNFMa_YhvNvk0U"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "806307959240-5qt23aevjd4b4spmfubm0oql50v4v3l8.apps.googleusercontent.com",
+              "client_id": "432432548400-v0lieqck0g8bo9ckeugqtjf51ogs2etc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

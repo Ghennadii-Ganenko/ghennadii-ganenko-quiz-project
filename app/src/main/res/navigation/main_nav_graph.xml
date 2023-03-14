@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/menuFragment"
-        android:name="sports.quiz.betcity.hast.fragments.menu.MenuFragment"
+        android:name="com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.menu.MenuFragment"
         android:label="fragment_menu"
         tools:layout="@layout/fragment_menu" >
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
-        android:name="sports.quiz.betcity.hast.fragments.game.GameFragment"
+        android:name="com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.game.GameFragment"
         android:label="fragment_game"
         tools:layout="@layout/fragment_game" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/scoreFragment"
-        android:name="sports.quiz.betcity.hast.fragments.score.ScoreFragment"
+        android:name="com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.score.ScoreFragment"
         android:label="fragment_score"
         tools:layout="@layout/fragment_score" >
         <argument
@@ -48,7 +48,7 @@
     </fragment>
     <fragment
         android:id="@+id/splashFragment"
-        android:name="sports.quiz.betcity.hast.fragments.splash.SplashFragment"
+        android:name="com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.splash.SplashFragment"
         android:label="SplashFragment"
         tools:layout="@layout/fragment_splash">
         <action
@@ -69,7 +69,7 @@
     </fragment>
     <fragment
         android:id="@+id/webViewFragment"
-        android:name="sports.quiz.betcity.hast.fragments.webview.WebViewFragment"
+        android:name="com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.webview.WebViewFragment"
         android:label="WebViewFragment"
         tools:layout="@layout/fragment_webview">
         <argument
@@ -79,7 +79,7 @@
     </fragment>
     <fragment
         android:id="@+id/internetExceptionFragment"
-        android:name="sports.quiz.betcity.hast.fragments.internetexception.InternetExceptionFragment"
+        android:name="com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.fragments.internetexception.InternetExceptionFragment"
         android:label="InternetExceptionFragment"
         tools:layout="@layout/fragment_internet_exception"/>
 </navigation>

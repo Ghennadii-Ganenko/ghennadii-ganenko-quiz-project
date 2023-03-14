@@ -1,4 +1,4 @@
-package sports.quiz.betcity.hast.utils
+package com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.utils
 
 import android.content.Context
 import android.net.ConnectivityManager

@@ -11,7 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="sports.quiz.betcity.hast.activity.MainActivity">
+        tools:context="com.ghennadiiganenko.android.ghennadiiganenko_quiz_project.activity.MainActivity">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="match_parent"

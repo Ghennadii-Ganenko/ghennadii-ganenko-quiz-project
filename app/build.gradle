@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace 'sports.quiz.betcity.hast'
+    namespace 'com.ghennadiiganenko.android.ghennadiiganenko_quiz_project'
     compileSdk 33
 
     defaultConfig {
-        applicationId "sports.quiz.betcity.hast"
+        applicationId "com.ghennadiiganenko.android.ghennadiiganenko_quiz_project"
         minSdk 21
         targetSdk 33
         versionCode 1

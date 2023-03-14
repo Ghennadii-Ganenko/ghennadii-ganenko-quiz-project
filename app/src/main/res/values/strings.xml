@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Бетсити</string>
+    <string name="app_name">Quiz</string>
     <string name="play_button">Play</string>
     <string name="exit_button">Exit</string>
     <string name="question">Question_n</string>
